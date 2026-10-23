@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Moirai+One&family=Rubik+Mono+One&display=swap');
+
+body {
+    background-color: #fff4bd;
+}
+.logo-marca {
+    font-family: "Rubik Mono One", monospace ;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.itens-menu {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.carousel-item {
+    max-height:26rem;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-interativo p {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.card-interativo {
+    background-color: #2C3033;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 5px rgba(4, 4, 4, 0.05);
+    transition: all 0.3s ease;
+    
+}
+
+h1, h3 {
+    font-family:"Rubik Mono One", monospace;
+}
+
+.card-interativo:hover {
+    background-color: #D4F1F9;
+    color: black;
+    font-size: 2rem;
+    border: none;
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgba(4, 4, 4, 0.05);
+}
+
+.container-beneficios {
+    background-color:#2C3033;
+    color: #D4F1F9; 
+}
+
+.container-beneficios p {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+.container-footer {
+    background-color: #2C3033;
+    color: white
+}
+
+.interagivel-footer {
+    font-family:"Rubik Mono One", monospace ;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #D4F1F9;
+}
+
+.interagivel-footer:hover {
+    color: white;
+}
+
+.card-destaque p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+}
+
+.card-destaque button {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.texto-modal {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+}
